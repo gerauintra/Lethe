@@ -1,0 +1,75 @@
+/* grid.css */
+
+/* Media queries for grid layout */
+@media only screen and (min-width: 0px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0.1%;
+        grid-row-gap: 0.5%; 
+    }
+}
+
+@media only screen and (min-width: 475px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0.1%;
+        grid-row-gap: 1%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0.25%;
+        grid-row-gap: 1.5%;
+    }
+}
+
+@media only screen and (min-width: 940px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 0.5%;
+        grid-row-gap: 1%;
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 2%;
+        grid-row-gap: 1.8%;
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .grid-container {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        grid-column-gap: 3%;
+        grid-row-gap: 2%; 
+    }
+}
+
+/* General grid styles */
+.grid-container {
+    margin-top: 3vh;
+    display: grid;
+}
+
+.grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Category headers */
+.category-header {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}

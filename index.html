@@ -1,0 +1,44 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lethe</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/grid.css">
+</head>
+<body>
+
+    <div class="progress-container">
+        <div class="progress-bar" id="myBar"></div>
+    </div> 
+
+    <script>
+        window.onscroll = function() {progressbar()};
+
+        function progressbar() {
+            var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+            var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            var scrolled = (winScroll / height) * 100;
+            document.getElementById("myBar").style.width = scrolled + "%";
+        }
+    </script>
+
+    <div class="header">
+        <h1>LETHE</h1>
+    </div>
+
+    <div class="menu_bar" id="menuBar">
+        <!-- Add Buttons aligned in a row that users can click to automatically scroll to the category of buttons-->
+    </div>
+
+
+    <div id="newsSources" class="gridofgrids">
+        <!-- Add category headers and grid containers here-->
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
