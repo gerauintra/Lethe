@@ -3,11 +3,13 @@ const newsSources = [
     {
         category: "Business",
         sources: [
+            { name: "Capitol Trades", url: "https://www.capitoltrades.com/trades" },
+            { name: "Unusual Whale Trades", url: "https://unusualwhales.com/politics/insider_trades" },
             { name: "Financial Times", url: "https://www.ft.com/" },
             { name: "Bloomberg", url: "https://www.bloomberg.com/" },
             { name: "Yahoo Finance", url: "https://finance.yahoo.com/" },
             { name: "Wall Street Journal", url: "https://www.wsj.com/" },
-            { name: "Fox Business", url: "https://www.foxbusiness.com/" }
+            { name: "Fox Business", url: "https://www.foxbusiness.com/" },
         ]
     },
     {
@@ -34,7 +36,7 @@ const newsSources = [
         category: "Tech",
         sources: [
             { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" }
+            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" },
         ]
     },
     {
@@ -55,7 +57,7 @@ const newsSources = [
         category: "Global Conflicts",
         sources: [
             { name: "DOD News", url: "https://www.defense.gov/News/News-Stories/" },
-            { name: "DOD Releases", url: "https://www.defense.gov/News/releases/" }
+            { name: "DOD Releases", url: "https://www.defense.gov/News/releases/" },
         ]
     },
     {
@@ -66,6 +68,17 @@ const newsSources = [
             { name: "Senate", url: "https://www.senate.gov/legislative/bills_acts_laws.htm" },
             { name: "Suporeme Court", url: "https://www.justice.gov/blogs" },
             { name: "Commerce", url: "https://www.commerce.gov/news/press-releases" },
+            { name: "DOD News", url: "https://www.defense.gov/news/" },
+            { name: "Defense News", url: "https://www.defensenews.com/" },
+            { name: "Army", url: "https://www.army.mil/news" },
+            { name: "Navy", url: "https://www.navy.mil/Press-Office/News-Stories/" },
+            { name: "Marines", url: "https://www.marines.mil/News/" },
+            { name: "Air Force", url: "https://www.af.mil/News/" },
+            { name: "Coast Guard", url: "https://www.news.uscg.mil/" },
+            { name: "Stars and Stripes", url: "https://www.stripes.com/" },
+            { name: "Military.com", url: "https://www.military.com/daily-news" },
+            { name: "Military Times", url: "https://www.militarytimes.com/" },
+            
         ]
     },
     {
@@ -76,13 +89,6 @@ const newsSources = [
             { name: "EPOCH China", url: "https://www.epochtimes.com" },
             { name: "EPOCH Russia", url: "https://www.epochtimes.ru" },
 
-        ]
-    },
-    {
-        category: "Healthcare",
-        sources: [
-            { name: "Modern Healthcare", url: "https://www.modernhealthcare.com/" },
-            { name: "Healthcare Dive", url: "https://www.healthcaredive.com/" }
         ]
     },
 ];
@@ -141,4 +147,3 @@ document.addEventListener("DOMContentLoaded", function() {
         newsSourcesContainer.appendChild(categoryContainer);
     });
 });
-
