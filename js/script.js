@@ -3,13 +3,15 @@ const newsSources = [
     {
         category: "Business",
         sources: [
+            { name: "Google Trending", url: "https://trends.google.com/trends/trendingsearches/daily?geo=US&hl=en-US" },
+            { name: "Twitter Trending", url: "https://twitter.com/explore/tabs/trending" },
             { name: "Capitol Trades", url: "https://www.capitoltrades.com/trades" },
             { name: "Unusual Whale Trades", url: "https://unusualwhales.com/politics/insider_trades" },
-            { name: "Financial Times", url: "https://www.ft.com/" },
             { name: "Bloomberg", url: "https://www.bloomberg.com/" },
             { name: "Yahoo Finance", url: "https://finance.yahoo.com/" },
             { name: "Wall Street Journal", url: "https://www.wsj.com/" },
             { name: "Fox Business", url: "https://www.foxbusiness.com/" },
+            { name: "Financial Times", url: "https://www.ft.com/" },
         ]
     },
     {
@@ -33,13 +35,6 @@ const newsSources = [
         ]
     },
     {
-        category: "Tech",
-        sources: [
-            { name: "CNN Politics", url: "https://www.cnn.com/politics" },
-            { name: "BBC Politics", url: "https://www.bbc.com/news/politics" },
-        ]
-    },
-    {
         category: "Cyber",
         sources: [
             { name: "Dark Reading", url: "https://www.darkreading.com/" },
@@ -49,15 +44,6 @@ const newsSources = [
             { name: "Security Boulevard", url: "https://securityboulevard.com/" },
             { name: "Security Week", url: "https://www.securityweek.com" },
             { name: "Krebs on Security", url: "https://krebsonsecurity.com/" },
-
-
-        ]
-    },
-    {
-        category: "Global Conflicts",
-        sources: [
-            { name: "DOD News", url: "https://www.defense.gov/News/News-Stories/" },
-            { name: "DOD Releases", url: "https://www.defense.gov/News/releases/" },
         ]
     },
     {
@@ -69,6 +55,7 @@ const newsSources = [
             { name: "Suporeme Court", url: "https://www.justice.gov/blogs" },
             { name: "Commerce", url: "https://www.commerce.gov/news/press-releases" },
             { name: "DOD News", url: "https://www.defense.gov/news/" },
+            { name: "DOD Releases", url: "https://www.defense.gov/News/releases/" },
             { name: "Defense News", url: "https://www.defensenews.com/" },
             { name: "Army", url: "https://www.army.mil/news" },
             { name: "Navy", url: "https://www.navy.mil/Press-Office/News-Stories/" },
@@ -78,7 +65,6 @@ const newsSources = [
             { name: "Stars and Stripes", url: "https://www.stripes.com/" },
             { name: "Military.com", url: "https://www.military.com/daily-news" },
             { name: "Military Times", url: "https://www.militarytimes.com/" },
-            
         ]
     },
     {
