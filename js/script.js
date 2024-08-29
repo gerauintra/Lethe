@@ -1,9 +1,11 @@
 // script.js
+//{ name: "", url: "" },
+
 const newsSources = [
     {
         category: "Business",
         sources: [
-            { name: "Google Trending", url: "https://trends.google.com/trends/trendingsearches/daily?geo=US&hl=en-US" },
+            { name: "Google Trending", url: "https://trends.google.com/trending?geo=US&hl=en-US&hours=168" },
             { name: "Twitter Trending", url: "https://twitter.com/explore/tabs/trending" },
             { name: "Capitol Trades", url: "https://www.capitoltrades.com/trades" },
             { name: "Unusual Whale Trades", url: "https://unusualwhales.com/politics/insider_trades" },
@@ -74,7 +76,7 @@ const newsSources = [
             { name: "EPOCH UK", url: "https://www.theepochtimes.com/uk-europe" },
             { name: "EPOCH China", url: "https://www.epochtimes.com" },
             { name: "EPOCH Russia", url: "https://www.epochtimes.ru" },
-
+            { name: "", url: "https://www.bbc.com/news/world/middle_east" },
         ]
     },
 ];
